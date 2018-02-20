@@ -23,7 +23,8 @@ module.exports = {
 
     compress: true,
     historyApiFallback: true,
-    disableHostCheck: true   // That solved it
+    contentBase: './',
+    disableHostCheck: true,   // That solved it
 
  }
 };
